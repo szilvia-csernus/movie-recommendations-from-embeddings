@@ -30,7 +30,7 @@ https://atlas.nomic.ai/data/csernusszilvi/experimental-arora/map
     - Create a project API key under Dashboard / API keys
     - Create a NOMIC Atlas account here: https://atlas.nomic.ai/
 
-1. Clone the project. - Be aware that the project includes the cached, movie_embeddings.pkl file which is 86MB in size. This file helps avoid charges from OpenAI if you choose to run the embedding function with the same parameters as in the project. If you plan to use the embedding function for a different dataset / model, downloading this file won't be neccessary.
+1. Clone the project. - Be aware that the project includes the original dataset I used (`wiki_movie_plots_deduped.csv`) as well as the cached, `movie_embeddings.pkl` file which are 81MB and 86MB in size, respectively.  Assuming you choose to run the embedding function with the same parameters as in the project, the cache file would help avoid charges from OpenAI,. If you plan to use the embedding function for a different dataset / model, downloading these files won't be neccessary.
 
 2. Create a virtual environment inside the project folder:
 
