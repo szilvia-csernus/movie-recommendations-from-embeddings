@@ -1,4 +1,4 @@
-# Movies Recommendations with Embeddings
+# Movie Recommendations with Embeddings
 
 Recommends the k most similar movie(s) after their plot texts' similarities. 5000 American movies are selected from a wiki dataset (see in [Credits](#credits)). 
 
@@ -75,6 +75,6 @@ https://atlas.nomic.ai/data/csernusszilvi/experimental-arora/map
 
 - This project was adopted from Colt Steele's Walkthrough project on Udemy: [Mastering OpenAI Python APIs](https://www.udemy.com/course/mastering-openai/?couponCode=24T3MT53024).
 
-    Changes made: My code and logic are significantly different from Colt's version, I use updated APIs and made improvements to the code's logic.
+    Changes made: My code and logic are significantly different from Colt's version, I used updated APIs and made improvements to the code's logic.
 
 - Original dataset: https://www.kaggle.com/datasets/jrobischon/wikipedia-movie-plots?resource=download
