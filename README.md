@@ -1,8 +1,9 @@
 # Movie Recommendations with Embeddings
 
-Recommends the k most similar movie(s) after their plot texts' similarities. 5000 American movies are selected from a wiki dataset (see in [Credits](#credits)). 
+Recommends the k most similar movie(s) after their plot texts' similarities. 
 
-For each movie plot, I created a text embedding with OpenAI's "text-embedding-3-small" model. 
+
+5000 American movies are selected from a wiki dataset (see in [Credits](#credits)). For each movie plot, I created a text embedding with OpenAI's "text-embedding-3-small" model. 
 
 Text embeddings measure the relatedness of text strings by turning the texts into high-dimentional vectors of floating point numbers. The distance between two vectors measures their relatedness:  small distances suggest high relatedness and large distances suggest low relatedness. 
 
