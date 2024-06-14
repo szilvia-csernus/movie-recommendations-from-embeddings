@@ -44,26 +44,30 @@ https://atlas.nomic.ai/data/csernusszilvi/experimental-arora/map
 
     Windows: `venv\Scripts\activate`
 
+4. Select interpreter in VSCode:
 
-4. Create an `.env` file in the root folder and add your project's API key:
+   (on Mac) Cmd + Shift + P  ---> Select Interpreter ---> Select the created venv environment
+
+
+5. Create an `.env` file in the root folder and add your project's API key:
 
     ```
     OPENAI_API_KEY=your-unique-opanai-project-key
     ```
 
 
-5. Install the python dependencies:
+6. Install the python dependencies:
 
     `pip install -r requirements.txt`
 
 
-6. Log in into `NOMIC Atlas`
+7. Log in into `NOMIC Atlas`
 
     - In the terminal: run `nomic login`, 
     - click the link to retrieve your API KEY then return to the terminal to run `nomic login <your-api-key>` to get authenticated.
 
 
-7. Run the Jupyter Notebook:
+8. Run the Jupyter Notebook:
 
     - `jupyter notebook` command will open the Notebook in the browser.
     - Run the commands in the given order in the `movies-embedding.ipynb` file, adjusting the models and cost calculations as neccessary. 
