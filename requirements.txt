@@ -56,7 +56,7 @@ nbconvert==7.16.4
 nbformat==5.10.4
 nest-asyncio==1.6.0
 nomic==3.0.29
-notebook==7.2.0
+notebook==7.2.2
 notebook_shim==0.2.4
 numpy==1.26.4
 openai==1.30.5
